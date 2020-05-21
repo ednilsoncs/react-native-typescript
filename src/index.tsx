@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 import React from 'react';
-import { KeyboardAvoidingView, StyleSheet } from 'react-native';
+import {KeyboardAvoidingView, StyleSheet} from 'react-native';
 import Routes from './routes';
 
 console.disableYellowBox = true;
@@ -16,8 +16,7 @@ const App = () => (
     behavior="position"
     style={s.container}
     contentContainerStyle={s.container}
-    keyboardVerticalOffset={-200}
-  >
+    keyboardVerticalOffset={-200}>
     <Routes />
   </KeyboardAvoidingView>
 );
