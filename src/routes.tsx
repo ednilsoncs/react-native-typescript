@@ -5,7 +5,7 @@ import Home from './screens/Home';
 
 const Stack = createStackNavigator();
 
-const Routes = () => (
+const Routes: React.FC = () => (
   <NavigationContainer>
     <Stack.Navigator>
       <Stack.Screen
